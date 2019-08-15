@@ -1,0 +1,6 @@
+framework module target2 {
+  umbrella header "target2.h"
+
+  export *
+  module * { export * }
+}
