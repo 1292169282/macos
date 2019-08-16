@@ -12,6 +12,9 @@
 		841F687323058C5F0065A603 /* XG_SDK_Cloud_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F687123058C5F0065A603 /* XG_SDK_Cloud_macOS.framework */; };
 		841F687423058C5F0065A603 /* XGMTACloud_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F687223058C5F0065A603 /* XGMTACloud_macOS.framework */; };
 		841F694A2306748F0065A603 /* target2.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F67DA23056FE90065A603 /* target2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F694C230679710065A603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694B230679710065A603 /* UIKit.framework */; };
+		841F694E23067E300065A603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694D23067E300065A603 /* Foundation.framework */; };
+		841F695023067E590065A603 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694F23067E590065A603 /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		841F67E723056FE90065A603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841F687123058C5F0065A603 /* XG_SDK_Cloud_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XG_SDK_Cloud_macOS.framework; path = macOSPush/XG_SDK_Cloud_macOS.framework; sourceTree = "<group>"; };
 		841F687223058C5F0065A603 /* XGMTACloud_macOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XGMTACloud_macOS.framework; path = macOSPush/XGMTACloud_macOS.framework; sourceTree = "<group>"; };
+		841F694B230679710065A603 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		841F694D23067E300065A603 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		841F694F23067E590065A603 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F695023067E590065A603 /* UserNotifications.framework in Frameworks */,
+				841F694E23067E300065A603 /* Foundation.framework in Frameworks */,
+				841F694C230679710065A603 /* UIKit.framework in Frameworks */,
 				841F687323058C5F0065A603 /* XG_SDK_Cloud_macOS.framework in Frameworks */,
 				841F687423058C5F0065A603 /* XGMTACloud_macOS.framework in Frameworks */,
 			);
@@ -117,6 +126,9 @@
 		841F68042305730A0065A603 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				841F694F23067E590065A603 /* UserNotifications.framework */,
+				841F694D23067E300065A603 /* Foundation.framework */,
+				841F694B230679710065A603 /* UIKit.framework */,
 				841F687123058C5F0065A603 /* XG_SDK_Cloud_macOS.framework */,
 				841F687223058C5F0065A603 /* XGMTACloud_macOS.framework */,
 			);
