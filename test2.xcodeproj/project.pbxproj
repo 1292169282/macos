@@ -15,6 +15,9 @@
 		841F694C230679710065A603 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694B230679710065A603 /* UIKit.framework */; };
 		841F694E23067E300065A603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694D23067E300065A603 /* Foundation.framework */; };
 		841F695023067E590065A603 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F694F23067E590065A603 /* UserNotifications.framework */; };
+		841F6957230681590065A603 /* XGPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F6956230681590065A603 /* XGPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F695A230681820065A603 /* MTAConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F6958230681810065A603 /* MTAConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F695B230681820065A603 /* MTA.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F6959230681820065A603 /* MTA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		841F694B230679710065A603 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		841F694D23067E300065A603 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		841F694F23067E590065A603 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		841F6956230681590065A603 /* XGPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XGPush.h; path = macOSPush/XG_SDK_Cloud_macOS.framework/Headers/XGPush.h; sourceTree = "<group>"; };
+		841F6958230681810065A603 /* MTAConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = macOSPush/XGMTACloud_macOS.framework/Headers/MTAConfig.h; sourceTree = "<group>"; };
+		841F6959230681820065A603 /* MTA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = macOSPush/XGMTACloud_macOS.framework/Headers/MTA.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 		841F67AF23056FB90065A603 = {
 			isa = PBXGroup;
 			children = (
+				841F6959230681820065A603 /* MTA.h */,
+				841F6958230681810065A603 /* MTAConfig.h */,
+				841F6956230681590065A603 /* XGPush.h */,
 				841F67BB23056FB90065A603 /* test2 */,
 				841F67D923056FE90065A603 /* target2 */,
 				841F67E423056FE90065A603 /* target2Tests */,
@@ -151,6 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				841F694A2306748F0065A603 /* target2.h in Headers */,
+				841F6957230681590065A603 /* XGPush.h in Headers */,
+				841F695A230681820065A603 /* MTAConfig.h in Headers */,
+				841F695B230681820065A603 /* MTA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
