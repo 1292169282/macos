@@ -1,7 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../macOSPush"
+      name = "macOSPush">
+      <Group
+         location = "group:XG_SDK_Cloud_macOS.framework"
+         name = "XG_SDK_Cloud_macOS.framework">
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <FileRef
+               location = "group:XG_SDK_Cloud_macOS.h">
+            </FileRef>
+            <FileRef
+               location = "group:XGPush.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Modules"
+            name = "Modules">
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Versions"
+            name = "Versions">
+            <Group
+               location = "group:A"
+               name = "A">
+               <Group
+                  location = "group:_CodeSignature"
+                  name = "_CodeSignature">
+                  <FileRef
+                     location = "group:CodeResources">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:XG_SDK_Cloud_macOS.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:XGPush.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:XG_SDK_Cloud_macOS">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Current"
+               name = "Current">
+               <Group
+                  location = "group:_CodeSignature"
+                  name = "_CodeSignature">
+                  <FileRef
+                     location = "group:CodeResources">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:XG_SDK_Cloud_macOS.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:XGPush.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:XG_SDK_Cloud_macOS">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:XG_SDK_Cloud_macOS">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:XGMTACloud_macOS.framework"
+         name = "XGMTACloud_macOS.framework">
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <FileRef
+               location = "group:MTA.h">
+            </FileRef>
+            <FileRef
+               location = "group:MTAConfig.h">
+            </FileRef>
+            <FileRef
+               location = "group:XGMTACloud_macOS.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Modules"
+            name = "Modules">
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Versions"
+            name = "Versions">
+            <Group
+               location = "group:A"
+               name = "A">
+               <Group
+                  location = "group:_CodeSignature"
+                  name = "_CodeSignature">
+                  <FileRef
+                     location = "group:CodeResources">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:MTA.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MTAConfig.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:XGMTACloud_macOS.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:XGMTACloud_macOS">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Current"
+               name = "Current">
+               <Group
+                  location = "group:_CodeSignature"
+                  name = "_CodeSignature">
+                  <FileRef
+                     location = "group:CodeResources">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:MTA.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MTAConfig.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:XGMTACloud_macOS.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Modules"
+                  name = "Modules">
+                  <FileRef
+                     location = "group:module.modulemap">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:XGMTACloud_macOS">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:XGMTACloud_macOS">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:test2.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

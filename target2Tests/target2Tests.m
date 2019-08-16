@@ -1,6 +1,6 @@
 //
-//  test2Tests.m
-//  test2Tests
+//  target2Tests.m
+//  target2Tests
 //
 //  Created by admin on 2019/8/15.
 //  Copyright © 2019年 admin. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface test2Tests : XCTestCase
+@interface target2Tests : XCTestCase
 
 @end
 
-@implementation test2Tests
+@implementation target2Tests
 
 - (void)setUp {
     [super setUp];
