@@ -11,6 +11,7 @@
 		841F67CA23056FB90065A603 /* test2.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F67BC23056FB90065A603 /* test2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841F687323058C5F0065A603 /* XG_SDK_Cloud_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F687123058C5F0065A603 /* XG_SDK_Cloud_macOS.framework */; };
 		841F687423058C5F0065A603 /* XGMTACloud_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841F687223058C5F0065A603 /* XGMTACloud_macOS.framework */; };
+		841F694A2306748F0065A603 /* target2.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F67DA23056FE90065A603 /* target2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F694A2306748F0065A603 /* target2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
